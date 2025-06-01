@@ -157,22 +157,12 @@ Project Structure
 A typical project structure might look like this:
 
 .
-├── src/
-│   ├── schema/
-│   │   ├── index.js      # Combines type definitions
-│   │   ├── user.js       # User type definitions
-│   │   └── post.js       # Post type definitions
-│   ├── resolvers/
-│   │   ├── index.js      # Combines resolvers
-│   │   ├── user.js       # User resolvers
-│   │   └── post.js       # Post resolvers
-│   ├── config/
-│   │   └── db.js         # Database connection setup
-│   ├── models/           # (Optional) Data models/ORM setup
-│   │   ├── User.js
-│   │   └── Post.js
-│   ├── index.js          # Main server entry point
-│   └── utils/            # Utility functions
+├── config
+├── graphql
+├── middleware
+├── model
+├── route
+├── server.js
 ├── .env                  # Environment variables
 ├── package.json
 ├── package-lock.json
